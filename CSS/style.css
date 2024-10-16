@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 1%;
+  font-family: "Lucida Console", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #e9e69c;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #32333d;
+}
+
+h2 {
+  text-align: center;
+}
+
+.add {
+  position: absolute;
+  top: 35px;
+  left: 84rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: -4px;
+  border-left: solid;
+  padding-left: 16px;
+}
+
+input {
+  width: 75%;
+  border-color: #32333d;
+  border-radius: 3px;
+  padding: 1%;
+  outline: none;
+  border: solid;
+}
+
+#inputadd {
+  position: relative;
+  display: inline-block;
+}
+
+#myInput {
+  position: fixed;
+  width: 90%;
+}
+
+ul li {
+  list-style: none;
+}
